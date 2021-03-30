@@ -8,3 +8,4 @@ temp/
 ormconfig.json
 .husky
 yarn.lock
+mock.html

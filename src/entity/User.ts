@@ -4,8 +4,8 @@ import {
 	Column,
 	UpdateDateColumn,
 	CreateDateColumn,
-	OneToOne,
 } from 'typeorm'
+import { Anamnesis } from './Anamnesis'
 
 @Entity('user')
 export class User {
@@ -29,6 +29,12 @@ export class User {
 
 	@Column({ type: 'date', nullable: true })
 	birth
+
+	@Column({ default: false })
+	emailVerified: boolean
+
+	@Column({ type: 'jsonb', nullable: true })
+	anamnesis: Anamnesis
 
 	@CreateDateColumn()
 	createdAt
