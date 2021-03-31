@@ -31,5 +31,8 @@
 		"start": "ts-node --files src/index.ts",
 		"typeorm": "ts-node ./node_modules/typeorm/cli.js",
 		"heroku-postbuild": "export TYPEORM_URL=$DATABASE_URL && export TYPEORM_MIGRATIONS=src/migration/*.ts && export TYPEORM_MIGRATIONS_DIR=src/migration && npm run typeorm migration:run"
+	},
+	"engines": {
+		"node": "14.15.5"
 	}
 }
