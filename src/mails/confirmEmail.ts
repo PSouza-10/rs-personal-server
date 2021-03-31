@@ -42,7 +42,7 @@ c0.78,2.23,1.94,4.3,3.3,6.25c0.58,0.84,1.22,1.7,1.87,2.59c2.56,3.86,6.57,11.24,4
 </svg>
 <h1 style="color: #f26e2c">Olá ${user.firstName}, pronto para começar?</h1>
 <a
-    href="http://localhost:5000/account/confirmEmail/${token}"
+    href="${process.env.APP_URL}/account/confirmEmail/${token}"
     style="
         color: white;
         font-size: 1.5rem;
