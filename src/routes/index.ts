@@ -5,7 +5,7 @@ import userRoutes from './user'
 
 const router = Router()
 
-router.use('/user', contentRoutes)
+router.use('/content', contentRoutes)
 router.use('/account', userRoutes)
 
 export default router
