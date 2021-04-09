@@ -1,0 +1,35 @@
+{
+  "title": "Avaliação de estress",
+  "questions": [
+    ["Dores de Cabeça", null],
+    ["Insônia", null],
+    ["Comer em excesso", null],
+    ["Dores na região lombar", null],
+    ["Ulcera ou gastrite", null],
+    ["Sensação de norvosismo", null],
+    ["Pesadelos", null],
+    ["Hipertensão arterial", null],
+    ["Mãos ou pés frios ou suados", null],
+    ["Ingestão de alcool ou remédios ", null],
+    ["sem receita médica", null],
+    ["Palpitações cardíacas", null],
+    ["Taquicardia", null],
+    ["Falta de apetite", null],
+    ["Baixo desempenho sexual", null],
+    ["Preocupaçõs excessivas", null],
+    ["Vômitos, náuseas", null],
+    ["Irritabilidade", null],
+    ["Perda de apetite ou diarréia", null],
+    ["Dores musculares (ombro, pescoço)", null],
+    ["Períodos de depressão", null],
+    ["Sentimento de raiva", null]
+  ],
+  "type": "Simple radio",
+  "labels": ["Nunca", "Ocasionalmente", "Frequentemente"],
+  "results": [
+    ["0-3", "Sem estresse"],
+    ["4-20", "Estresse moderado"],
+    ["21-30", "Estresse intenso"],
+    ["31", "Estresse muito intenso"]
+  ]
+}
