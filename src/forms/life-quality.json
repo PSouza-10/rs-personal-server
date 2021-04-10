@@ -10,7 +10,8 @@
         ["Boa", 3.4],
         ["Ruim", 2],
         ["Muito Ruim", 1]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "02) - Comparada há um ano atraz, como você se classificaria quanto à sua idade em geral, agora?",
@@ -21,7 +22,8 @@
         ["Quase a mesma", 3],
         ["Um pouco pior", 4],
         ["Muito pior", 5]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "03) - Sobre as atividades que você poderia fazer atualamente durante um dia comum. Devido à sua saude, você teria dificuldade paa fazer estas atividades? Neste caso quando?",
@@ -46,6 +48,7 @@
 
         "j) Tomar banho ou vestir-se"
       ],
+      "type": "same-answer",
       "opts": [
         ["Sim dificulta muito", 1],
         ["Sim dificulta um pouco", 2],
@@ -63,6 +66,7 @@
 
         "d) Teve dificuldade de fazer seu trabalho ou outras atividades ( por ex. necessitou de um esforço extra)"
       ],
+      "type": "same-answer",
       "opts": [
         ["Sim", 1],
         ["Não", 0]
@@ -77,6 +81,7 @@
 
         "c) Não realizou ou fez qualquer das atividades com tanto cuidado como geralmente faz?"
       ],
+      "type": "same-answer",
       "opts": [
         ["Sim", 1],
         ["Não", 0]
@@ -91,7 +96,8 @@
         ["Moderadamente", 3],
         ["Bastante", 2],
         ["Extremamente", 1]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "07) - Quanta dor no corpo você teve durantre as ultimas quatro semanas?",
@@ -103,7 +109,8 @@
         ["Moderada", 3.1],
         ["Grave", 2.2],
         ["Muito grave", 1]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "08) - Durante as ultimas quatro semanas quanto a dor interferiu com seu trabalho normal, (incluindo o trabalho dentro de casa)?",
@@ -114,7 +121,8 @@
         ["Moderadamente", 2],
         ["Bastante", 3],
         ["Extremamente", 4]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "09) - Como você se sente e como tudo tem acontecido com você durante as ultimas quatro semanas. Para cada questão de uma resposta que mais se aproxime da maneira como você se sente em relação as ultimas quatro semanas?",
@@ -218,7 +226,8 @@
             ["Nunca", 6]
           ]
         }
-      ]
+      ],
+      "type": "composite"
     },
     {
       "label": "10) - Durante as ultimas quatro semanas, quanto do seu tempo a sua saude física ou problemas emocionais inteferiram com as suas atividades sociais ( como visitar amigos, parentes etc..)?",
@@ -229,7 +238,8 @@
         ["Alguma parte do tempo", 3],
         ["Uma pequena parte do tempo", 4],
         ["Nenhuma parte do tempo", 5]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "11) - O quanto verdadeiro ou falso é cada uma destas aformações pra você?",
@@ -274,7 +284,8 @@
             ["Definitivamente falso", 1]
           ]
         }
-      ]
+      ],
+      "type": "composite"
     }
   ],
   "type": "composite",

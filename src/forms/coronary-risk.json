@@ -10,7 +10,8 @@
         ["41 a 50 anos", 4],
         ["51 a 60 anos", 6],
         ["61 a 70 anos", 8]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "Hereditariedade",
@@ -21,7 +22,8 @@
         ["1 parente com mais de 60 anos com doença cardiovascular", 2],
         ["1 parente com menos de 60 anos com doença cardiovascular", 4],
         ["3 parentes com menos de 60 anos com doença cardiovascular", 8]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "Peso Corporal",
@@ -32,7 +34,8 @@
         ["Excesso de peso de 16,2 a 22,6 kg", 5],
         ["Excesso de peso de 2,5 a 9 kg", 2],
         ["Excesso de peso de 23 a 29,5 kg", 7]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "Tabagismo",
@@ -43,7 +46,8 @@
         ["30 cigarros por dia", 6],
         ["10 cigarros ou menos por dia", 2],
         ["40 cigarros ou mais por dia", 10]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "Exercício Físico",
@@ -54,7 +58,8 @@
         ["Trabalho sedentário e esforço recreativo leve", 6],
         ["Trabalho sedentário, esforço recreativo intenso", 3],
         ["Ausência completa de qualquer exercício", 8]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "Colesterol ou % de Gordura na Dieta",
@@ -83,7 +88,8 @@
           "Colesterol de 281-330 mg% 50% de gordura animal ou sólida na dieta",
           7
         ]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "Pressão arterial",
@@ -94,7 +100,8 @@
         ["Limite superior de 180", 6],
         ["Limite superior de 140", 3],
         ["Limite superior de 200", 8]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "Sexo",
@@ -105,7 +112,8 @@
         ["Homem atarracado", 6],
         ["Mulher com mais de 50", 3],
         ["Homem careca e atarracado", 7]
-      ]
+      ],
+      "type": "simple"
     }
   ],
   "type": "composite",

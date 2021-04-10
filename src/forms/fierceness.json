@@ -10,7 +10,8 @@
         ["Um pouco a ver comigo", 3],
         ["Bastante a ver comigo", 2],
         ["Totalmente a ver comigo", 1]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "b) Obstaculos não me desestimulam. Eu não desisto com facilidade",
@@ -20,7 +21,8 @@
         ["Um pouco a ver comigo", 3],
         ["Bastante a ver comigo", 4],
         ["Totalmente a ver comigo", 5]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "c) Muitas vezes eu defino um objetivo, mas depois prefiro buscar outro",
@@ -30,7 +32,8 @@
         ["Um pouco a ver comigo", 3],
         ["Bastante a ver comigo", 2],
         ["Totalmente a ver comigo", 1]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "d) Sou um trabalhador esforçado",
@@ -40,7 +43,8 @@
         ["Um pouco a ver comigo", 3],
         ["Bastante a ver comigo", 4],
         ["Totalmente a ver comigo", 5]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "e) Tenho dificuldade para manter o foco em projetos que exigem mais de alguns meses para terminar",
@@ -50,7 +54,8 @@
         ["Um pouco a ver comigo", 3],
         ["Bastante a ver comigo", 2],
         ["Totalmente a ver comigo", 1]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "f) Eu termino tudo que começo",
@@ -60,7 +65,8 @@
         ["Um pouco a ver comigo", 3],
         ["Bastante a ver comigo", 4],
         ["Totalmente a ver comigo", 5]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "g) Meus interesses mudam de ano para ano",
@@ -70,7 +76,8 @@
         ["Um pouco a ver comigo", 3],
         ["Bastante a ver comigo", 2],
         ["Totalmente a ver comigo", 1]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "h) Sou dedicado nunca desisto",
@@ -80,7 +87,8 @@
         ["Um pouco a ver comigo", 3],
         ["Bastante a ver comigo", 4],
         ["Totalmente a ver comigo", 5]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "i) Já tive obcecado durante algum tempo por certa ideia ou projeto mas depois perdi o interesse",
@@ -90,7 +98,8 @@
         ["Um pouco a ver comigo", 3],
         ["Bastante a ver comigo", 2],
         ["Totalmente a ver comigo", 1]
-      ]
+      ],
+      "type": "simple"
     },
     {
       "label": "j) Já superei obstáculos para conquistar um objetivo",
@@ -100,7 +109,8 @@
         ["Um pouco a ver comigo", 3],
         ["Bastante a ver comigo", 4],
         ["Totalmente a ver comigo", 5]
-      ]
+      ],
+      "type": "simple"
     }
   ],
   "type": "composite"
