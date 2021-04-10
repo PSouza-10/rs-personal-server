@@ -1,83 +1,115 @@
 {
   "title": "Risco Coronário",
-  "questions": {
-    "Idade": [
-      ["10 a 20 anos", 1],
-      ["21 a 30 anos", 2],
-      ["31 a 40 anos", 3],
-      ["41 a 50 anos", 4],
-      ["51 a 60 anos", 6],
-      ["61 a 70 anos", 8]
-    ],
-
-    "Hereditariedade": [
-      ["Nenhuma história conhecida ", 1],
-      ["2 parente com mais de 60 anos com doenças cardiovasculares", 3],
-      ["2 parentes com menos de 60 anos com doença cardiovascular", 6],
-      ["1 parente com mais de 60 anos com doença cardiovascular", 2],
-      ["1 parente com menos de 60 anos com doença cardiovascular", 4],
-      ["3 parentes com menos de 60 anos com doença cardiovascular", 8]
-    ],
-
-    "Peso Corporal": [
-      ["Mais de 2,3, kg baixo do peso padronizado", 0],
-      ["Excesso de peso de 9,1 a 15,8 kg", 3],
-      ["–2,3 a +2,3 kg do peso padronizado", 1],
-      ["Excesso de peso de 16,2 a 22,6 kg", 5],
-      ["Excesso de peso de 2,5 a 9 kg", 2],
-      ["Excesso de peso de 23 a 29,5 kg", 7]
-    ],
-
-    "Tabagismo": [
-      ["Não-fumante", 0],
-      ["20 cigarros por dia", 4],
-      ["Charuto e/ou cachimbo", 1],
-      ["30 cigarros por dia", 6],
-      ["10 cigarros ou menos por dia", 2],
-      ["40 cigarros ou mais por dia", 10]
-    ],
-
-    "Exercício Físico": [
-      ["Esforço ocupacional e recreativo intenso", 1],
-      ["Trabalho sedentário e esforço recreativo moderado", 5],
-      ["Esforço ocupacional e recreativo moderado", 2],
-      ["Trabalho sedentário e esforço recreativo leve", 6],
-      ["Trabalho sedentário, esforço recreativo intenso", 3],
-      ["Ausência completa de qualquer exercício", 8]
-    ],
-
-    "Colesterol ou % de Gordura na Dieta": [
-      [
-        "Colesterol total de 180 mg% ausência de gorduras animais ou sólidas na dieta",
-        1
-      ],
-      ["Colesterol de 206-230 mg% 20% de gordura animal ou sólida na dieta", 3],
-      ["Colesterol de 256-280 mg% 40% de gordura animal ou sólida na dieta", 5],
-      ["Colesterol de 181-205 mg 10% de gordura animal ou sólida na dieta", 2],
-      ["Colesterol de 231-255 mg% 30% de gordura animal ou sólida na dieta", 4],
-      ["Colesterol de 281-330 mg% 50% de gordura animal ou sólida na dieta", 7]
-    ],
-
-    "Pressão arterial": [
-      ["Limite superior de 100 ", 1],
-      ["Limite superior de 160 ", 4],
-      ["Limite superior de 120 ", 2],
-      ["Limite superior de 180 ", 6],
-      ["Limite superior de 140 ", 3],
-      ["Limite superior de 200 ", 8]
-    ],
-
-    "Sexo": [
-      ["Mulher com menos de 40", 1],
-      ["Homem", 5],
-      ["Mulher com 40-50", 2],
-      ["Homem atarracado", 6],
-      ["Mulher com mais de 50", 3],
-      ["Homem careca e atarracado", 7]
-    ]
-  },
-  "type": "composite-radio",
-  "results": [
+  "questions": [
+    {
+      "label": "Idade",
+      "opts": [
+        ["10 a 20 anos", 1],
+        ["21 a 30 anos", 2],
+        ["31 a 40 anos", 3],
+        ["41 a 50 anos", 4],
+        ["51 a 60 anos", 6],
+        ["61 a 70 anos", 8]
+      ]
+    },
+    {
+      "label": "Hereditariedade",
+      "opts": [
+        ["Nenhuma história conhecida", 1],
+        ["2 parente com mais de 60 anos com doenças cardiovasculares", 3],
+        ["2 parentes com menos de 60 anos com doença cardiovascular", 6],
+        ["1 parente com mais de 60 anos com doença cardiovascular", 2],
+        ["1 parente com menos de 60 anos com doença cardiovascular", 4],
+        ["3 parentes com menos de 60 anos com doença cardiovascular", 8]
+      ]
+    },
+    {
+      "label": "Peso Corporal",
+      "opts": [
+        ["Mais de 2,3, kg baixo do peso padronizado", 0],
+        ["Excesso de peso de 9,1 a 15,8 kg", 3],
+        ["–2,3 a +2,3 kg do peso padronizado", 1],
+        ["Excesso de peso de 16,2 a 22,6 kg", 5],
+        ["Excesso de peso de 2,5 a 9 kg", 2],
+        ["Excesso de peso de 23 a 29,5 kg", 7]
+      ]
+    },
+    {
+      "label": "Tabagismo",
+      "opts": [
+        ["Não-fumante", 0],
+        ["20 cigarros por dia", 4],
+        ["Charuto e/ou cachimbo", 1],
+        ["30 cigarros por dia", 6],
+        ["10 cigarros ou menos por dia", 2],
+        ["40 cigarros ou mais por dia", 10]
+      ]
+    },
+    {
+      "label": "Exercício Físico",
+      "opts": [
+        ["Esforço ocupacional e recreativo intenso", 1],
+        ["Trabalho sedentário e esforço recreativo moderado", 5],
+        ["Esforço ocupacional e recreativo moderado", 2],
+        ["Trabalho sedentário e esforço recreativo leve", 6],
+        ["Trabalho sedentário, esforço recreativo intenso", 3],
+        ["Ausência completa de qualquer exercício", 8]
+      ]
+    },
+    {
+      "label": "Colesterol ou % de Gordura na Dieta",
+      "opts": [
+        [
+          "Colesterol total de 180 mg% ausência de gorduras animais ou sólidas na dieta",
+          1
+        ],
+        [
+          "Colesterol de 206-230 mg% 20% de gordura animal ou sólida na dieta",
+          3
+        ],
+        [
+          "Colesterol de 256-280 mg% 40% de gordura animal ou sólida na dieta",
+          5
+        ],
+        [
+          "Colesterol de 181-205 mg 10% de gordura animal ou sólida na dieta",
+          2
+        ],
+        [
+          "Colesterol de 231-255 mg% 30% de gordura animal ou sólida na dieta",
+          4
+        ],
+        [
+          "Colesterol de 281-330 mg% 50% de gordura animal ou sólida na dieta",
+          7
+        ]
+      ]
+    },
+    {
+      "label": "Pressão arterial",
+      "opts": [
+        ["Limite superior de 100", 1],
+        ["Limite superior de 160", 4],
+        ["Limite superior de 120", 2],
+        ["Limite superior de 180", 6],
+        ["Limite superior de 140", 3],
+        ["Limite superior de 200", 8]
+      ]
+    },
+    {
+      "label": "Sexo",
+      "opts": [
+        ["Mulher com menos de 40", 1],
+        ["Homem", 5],
+        ["Mulher com 40-50", 2],
+        ["Homem atarracado", 6],
+        ["Mulher com mais de 50", 3],
+        ["Homem careca e atarracado", 7]
+      ]
+    }
+  ],
+  "type": "composite",
+  "result": [
     ["6-11", "Risco bem abaixo da média"],
     ["12-17", "Risco abaixo da média"],
     ["18-24", "Risco na média"],
