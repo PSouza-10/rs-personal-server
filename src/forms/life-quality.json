@@ -26,145 +26,60 @@
     {
       "label": "03) - Sobre as atividades que você poderia fazer atualamente durante um dia comum. Devido à sua saude, você teria dificuldade paa fazer estas atividades? Neste caso quando?",
       "sub": [
-        {
-          "label": "a) Atividades rigorosas que exigem muito esdforço, tais como correr, levantar objetos pesados, participar em esportes árduos",
-          "opts": [
-            ["Sim dificulta muito", 1],
-            ["Sim dificulta um pouco", 2],
-            ["Não, não dificulta de modo algum", 3]
-          ]
-        },
-        {
-          "label": "b) Atividades moderadas, tais como mover uma mesa, passar aspirador de pó, jogar bola, varrer a casa.",
-          "opts": [
-            ["Sim dificulta muito", 1],
-            ["Sim dificulta um pouco", 2],
-            ["Não, não dificulta de modo algum", 3]
-          ]
-        },
-        {
-          "label": "c) levantar ou carregar mantimentos.",
-          "opts": [
-            ["Sim dificulta muito", 1],
-            ["Sim dificulta um pouco", 2],
-            ["Não, não dificulta de modo algum", 3]
-          ]
-        },
-        {
-          "label": "d) Subir vários lances de escada.",
-          "opts": [
-            ["Sim dificulta muito", 1],
-            ["Sim dificulta um pouco", 2],
-            ["Não, não dificulta de modo algum", 3]
-          ]
-        },
-        {
-          "label": "e) Subir um lance de escada",
-          "opts": [
-            ["Sim dificulta muito", 1],
-            ["Sim dificulta um pouco", 2],
-            ["Não, não dificulta de modo algum", 3]
-          ]
-        },
-        {
-          "label": "f) Curvar-se, ajoelhar-se ou dobrar-se",
-          "opts": [
-            ["Sim dificulta muito", 1],
-            ["Sim dificulta um pouco", 2],
-            ["Não, não dificulta de modo algum", 3]
-          ]
-        },
-        {
-          "label": "g) Andar mais de 1 quilômetro",
-          "opts": [
-            ["Sim dificulta muito", 1],
-            ["Sim dificulta um pouco", 2],
-            ["Não, não dificulta de modo algum", 3]
-          ]
-        },
-        {
-          "label": "h) Andar varios quarteirões",
-          "opts": [
-            ["Sim dificulta muito", 1],
-            ["Sim dificulta um pouco", 2],
-            ["Não, não dificulta de modo algum", 3]
-          ]
-        },
-        {
-          "label": "i) Andar um quarteirão",
-          "opts": [
-            ["Sim dificulta muito", 1],
-            ["Sim dificulta um pouco", 2],
-            ["Não, não dificulta de modo algum", 3]
-          ]
-        },
-        {
-          "label": "j) Tomar banho ou vestir-se",
-          "opts": [
-            ["Sim dificulta muito", 1],
-            ["Sim dificulta um pouco", 2],
-            ["Não, não dificulta de modo algum", 3]
-          ]
-        }
+        "a) Atividades rigorosas que exigem muito esdforço, tais como correr, levantar objetos pesados, participar em esportes árduos",
+
+        "b) Atividades moderadas, tais como mover uma mesa, passar aspirador de pó, jogar bola, varrer a casa.",
+
+        "c) levantar ou carregar mantimentos.",
+
+        "d) Subir vários lances de escada.",
+
+        "e) Subir um lance de escada",
+
+        "f) Curvar-se, ajoelhar-se ou dobrar-se",
+
+        "g) Andar mais de 1 quilômetro",
+
+        "h) Andar varios quarteirões",
+
+        "i) Andar um quarteirão",
+
+        "j) Tomar banho ou vestir-se"
+      ],
+      "opts": [
+        ["Sim dificulta muito", 1],
+        ["Sim dificulta um pouco", 2],
+        ["Não, não dificulta de modo algum", 3]
       ]
     },
     {
       "label": "04) - Durante as ultimas quatro semanas você teve algum dos seguintes problemas com seu trabalho ou com alguma atividade regular, como consequancia de sua saúde física?",
       "sub": [
-        {
-          "label": "a) Você diminui a quantidade de tempo que se dedica ao seu trabalho ou outras atividades?",
-          "opts": [
-            ["Sim", true],
-            ["Não", false]
-          ]
-        },
-        {
-          "label": "b) Realizou menos tarefas do que você gostaria?",
-          "opts": [
-            ["Sim", true],
-            ["Não", false]
-          ]
-        },
-        {
-          "label": "c) esteve limitado no seu tipo de trabalho ou a outras atividades?",
-          "opts": [
-            ["Sim", true],
-            ["Não", false]
-          ]
-        },
-        {
-          "label": "d) Teve dificuldade de fazer seu trabalho ou outras atividades ( por ex. necessitou de um esforço extra)",
-          "opts": [
-            ["Sim", true],
-            ["Não", false]
-          ]
-        }
+        "a) Você diminui a quantidade de tempo que se dedica ao seu trabalho ou outras atividades?",
+
+        "b) Realizou menos tarefas do que você gostaria?",
+
+        "c) esteve limitado no seu tipo de trabalho ou a outras atividades?",
+
+        "d) Teve dificuldade de fazer seu trabalho ou outras atividades ( por ex. necessitou de um esforço extra)"
+      ],
+      "opts": [
+        ["Sim", 1],
+        ["Não", 0]
       ]
     },
     {
       "label": "05) - Durante as ultimas quatro semanas você teve algum dos seguintes problemas com seu trabalho ou com alguma atividade regular, como consequência de algum problema emocional.( como se sentir deprimido ou ansioso)?",
       "sub": [
-        {
-          "label": "a) Você diminuiu a quantidade de tempo que se dedicava ao seu trabalho ou a outras atividades?",
-          "opts": [
-            ["Sim", true],
-            ["Não", false]
-          ]
-        },
-        {
-          "label": "b) Realizou menos tarefas do que você gostaria?",
-          "opts": [
-            ["Sim", true],
-            ["Não", false]
-          ]
-        },
-        {
-          "label": "c) Não realizou ou fez qualquer das atividades com tanto cuidado como geralmente faz?",
-          "opts": [
-            ["Sim", true],
-            ["Não", false]
-          ]
-        }
+        "a) Você diminuiu a quantidade de tempo que se dedicava ao seu trabalho ou a outras atividades?",
+
+        "b) Realizou menos tarefas do que você gostaria?",
+
+        "c) Não realizou ou fez qualquer das atividades com tanto cuidado como geralmente faz?"
+      ],
+      "opts": [
+        ["Sim", 1],
+        ["Não", 0]
       ]
     },
     {
@@ -207,12 +122,12 @@
         {
           "label": "a) Quanto tempo você tem se sentido cheio de vigor, de vontade e força?",
           "opts": [
-            ["Todo tempo", 1],
-            ["A maior parte do tempo", 2],
-            ["Uma boa parte do tempo", 3],
-            ["Alguma parte do tempo", 4],
-            ["Uma pequena parte do tempo", 5],
-            ["Nunca", 6]
+            ["Todo tempo", 6],
+            ["A maior parte do tempo", 5],
+            ["Uma boa parte do tempo", 4],
+            ["Alguma parte do tempo", 3],
+            ["Uma pequena parte do tempo", 2],
+            ["Nunca", 1]
           ]
         },
         {
@@ -240,23 +155,23 @@
         {
           "label": "d) Quanto tempo você tem se sentido calmo ou tranquilo?",
           "opts": [
-            ["Todo tempo", 1],
-            ["A maior parte do tempo", 2],
-            ["Uma boa parte do tempo", 3],
-            ["Alguma parte do tempo", 4],
-            ["Uma pequena parte do tempo", 5],
-            ["Nunca", 6]
+            ["Todo tempo", 6],
+            ["A maior parte do tempo", 5],
+            ["Uma boa parte do tempo", 4],
+            ["Alguma parte do tempo", 3],
+            ["Uma pequena parte do tempo", 2],
+            ["Nunca", 1]
           ]
         },
         {
           "label": "e) Quanto tempo você tem se sentido com muita energia?",
           "opts": [
-            ["Todo tempo", 1],
-            ["A maior parte do tempo", 2],
-            ["Uma boa parte do tempo", 3],
-            ["Alguma parte do tempo", 4],
-            ["Uma pequena parte do tempo", 5],
-            ["Nunca", 6]
+            ["Todo tempo", 6],
+            ["A maior parte do tempo", 5],
+            ["Uma boa parte do tempo", 4],
+            ["Alguma parte do tempo", 3],
+            ["Uma pequena parte do tempo", 2],
+            ["Nunca", 1]
           ]
         },
         {
@@ -284,12 +199,12 @@
         {
           "label": "h) Quanto tempo você tem se sentido uma pessoa feliz?",
           "opts": [
-            ["Todo tempo", 1],
-            ["A maior parte do tempo", 2],
-            ["Uma boa parte do tempo", 3],
-            ["Alguma parte do tempo", 4],
-            ["Uma pequena parte do tempo", 5],
-            ["Nunca", 6]
+            ["Todo tempo", 6],
+            ["A maior parte do tempo", 5],
+            ["Uma boa parte do tempo", 4],
+            ["Alguma parte do tempo", 3],
+            ["Uma pequena parte do tempo", 2],
+            ["Nunca", 1]
           ]
         },
         {

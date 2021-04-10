@@ -1,0 +1,133 @@
+{
+  "title": "Questionário de Ansiedade e Depressão",
+  "description": "Assinale com \"X\" a alternativa que melhor descreve sua resposta para cada questão",
+  "questions": [
+    {
+      "label": "a) Eu me sinto tenso(a) ou contraido(a)",
+      "opts": [
+        ["A maior parte do tempo", 3],
+        ["Boa parte do tempo", 2],
+        ["De vez em quando", 1],
+        ["Nunca", 0]
+      ]
+    },
+    {
+      "label": "b) Eu ainda sinto que gosto das mesmas coisas de antes",
+      "opts": [
+        ["Sim, do mesmo jeito que antes", 0],
+        ["Não tanto quanto antes", 1],
+        ["Só um pouco", 2],
+        ["Já não consigo ter prazer em nada", 3]
+      ]
+    },
+    {
+      "label": "c) Eu sinto uma espécie de medo. Como se alguma coisa ruim fosse acontecer",
+      "opts": [
+        ["Sim, de um jeito muito forte", 3],
+        ["Sim. Mas não tão forte", 2],
+        ["Um pouco, mas isso não me preocupa", 1],
+        ["Não sinto nada disso", 0]
+      ]
+    },
+    {
+      "label": "d) Dou risada e me divirto quando vejo coisas engraçadas",
+      "opts": [
+        ["Do mesmo jeito que antes", 0],
+        ["Atualmente um pouco menos", 1],
+        ["Atualamente bem menos", 2],
+        ["Não consigo mais", 3]
+      ]
+    },
+    {
+      "label": "e) Estou com a cabeça cheia de preocupações",
+      "opts": [
+        ["A maior parte do tempo", 3],
+        ["Boa parte do tempo", 2],
+        ["De vez em quando", 1],
+        ["Raramente", 0]
+      ]
+    },
+    {
+      "label": "f) Eu me sinto alegre",
+      "opts": [
+        ["Nunca", 3],
+        ["Poucas vezes", 2],
+        ["Muitas vezes", 1],
+        ["A maior parte do tempo", 0]
+      ]
+    },
+    {
+      "label": "g) Consigo ficar sentado à vontade e me sentir relaxado",
+      "opts": [
+        ["Sim, quase sempre", 0],
+        ["Muitas vezes", 1],
+        ["Poucas vezes", 2],
+        ["Nunca", 3]
+      ]
+    },
+    {
+      "label": "h) Eu estou lento(a) para pensar e fazer coisas",
+      "opts": [
+        ["Quase sempre", 3],
+        ["Muitas vezes", 2],
+        ["Poucas vezes", 1],
+        ["Nunca", 0]
+      ]
+    },
+    {
+      "label": "i) Eu tenho uma sensação ruim de medo, como um frio na barriga ou um aperto no estômago",
+      "opts": [
+        ["Nunca", 0],
+        ["De vez em quando", 1],
+        ["Muitas vezes", 2],
+        ["Quase sempre", 3]
+      ]
+    },
+    {
+      "label": "j) Eu perdi o interesse em cuidar da minha aparência",
+      "opts": [
+        ["Completamente", 3],
+        ["Não estou mais me cuidando como deveria", 2],
+        ["Talvez não tanto quanto antes", 1],
+        ["Me cuido do mesmo jeito que antes", 0]
+      ]
+    },
+    {
+      "label": "k) Eu me sinto inquieto(a), como se eu não pudesse ficar parado (a) em lugar nenhum",
+      "opts": [
+        ["Sim, demais", 3],
+        ["Bastante", 2],
+        ["Um pouco", 1],
+        ["Não me sinto assim", 0]
+      ]
+    },
+    {
+      "label": "l) Fico animado (a), esperando animado as coisas boas que estão por vir",
+      "opts": [
+        ["Do mesmo jeito que antes", 0],
+        ["Um pouco menos que antes", 1],
+        ["Bem menos do que antes", 2],
+        ["Quase nunca", 3]
+      ]
+    },
+    {
+      "label": "m) De repente tenho a sensação de entrar em pânico",
+      "opts": [
+        ["A quase todo momento", 3],
+        ["Varias vezes", 2],
+        ["De vez em quando", 1],
+        ["Não senti isso", 0]
+      ]
+    },
+    {
+      "label": "n) Consigo sentir prazer quando assisto a um bom programa de televisão, de rádio ou quando leio alguma coisa",
+      "opts": [
+        ["Quase sempre", 0],
+        ["Várias vezes", 1],
+        ["Poucas vezes", 2],
+        ["Quase nunca", 3]
+      ]
+    }
+  ],
+  "type": "composite"
+}

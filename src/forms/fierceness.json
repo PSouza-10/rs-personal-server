@@ -1,0 +1,107 @@
+{
+  "title": "Questionário de Garra",
+  "description": "Leia cada frase e assinale a opção de resposta mais indicada",
+  "questions": [
+    {
+      "label": "a) Novas ideias e novos projetosas vezes me distraem dos anteriores",
+      "opts": [
+        ["Nada a ver comigo", 5],
+        ["Não muito a ver comigo", 4],
+        ["Um pouco a ver comigo", 3],
+        ["Bastante a ver comigo", 2],
+        ["Totalmente a ver comigo", 1]
+      ]
+    },
+    {
+      "label": "b) Obstaculos não me desestimulam. Eu não desisto com facilidade",
+      "opts": [
+        ["Nada a ver comigo", 1],
+        ["Não muito a ver comigo", 2],
+        ["Um pouco a ver comigo", 3],
+        ["Bastante a ver comigo", 4],
+        ["Totalmente a ver comigo", 5]
+      ]
+    },
+    {
+      "label": "c) Muitas vezes eu defino um objetivo, mas depois prefiro buscar outro",
+      "opts": [
+        ["Nada a ver comigo", 5],
+        ["Não muito a ver comigo", 4],
+        ["Um pouco a ver comigo", 3],
+        ["Bastante a ver comigo", 2],
+        ["Totalmente a ver comigo", 1]
+      ]
+    },
+    {
+      "label": "d) Sou um trabalhador esforçado",
+      "opts": [
+        ["Nada a ver comigo", 1],
+        ["Não muito a ver comigo", 2],
+        ["Um pouco a ver comigo", 3],
+        ["Bastante a ver comigo", 4],
+        ["Totalmente a ver comigo", 5]
+      ]
+    },
+    {
+      "label": "e) Tenho dificuldade para manter o foco em projetos que exigem mais de alguns meses para terminar",
+      "opts": [
+        ["Nada a ver comigo", 5],
+        ["Não muito a ver comigo", 4],
+        ["Um pouco a ver comigo", 3],
+        ["Bastante a ver comigo", 2],
+        ["Totalmente a ver comigo", 1]
+      ]
+    },
+    {
+      "label": "f) Eu termino tudo que começo",
+      "opts": [
+        ["Nada a ver comigo", 1],
+        ["Não muito a ver comigo", 2],
+        ["Um pouco a ver comigo", 3],
+        ["Bastante a ver comigo", 4],
+        ["Totalmente a ver comigo", 5]
+      ]
+    },
+    {
+      "label": "g) Meus interesses mudam de ano para ano",
+      "opts": [
+        ["Nada a ver comigo", 5],
+        ["Não muito a ver comigo", 4],
+        ["Um pouco a ver comigo", 3],
+        ["Bastante a ver comigo", 2],
+        ["Totalmente a ver comigo", 1]
+      ]
+    },
+    {
+      "label": "h) Sou dedicado nunca desisto",
+      "opts": [
+        ["Nada a ver comigo", 1],
+        ["Não muito a ver comigo", 2],
+        ["Um pouco a ver comigo", 3],
+        ["Bastante a ver comigo", 4],
+        ["Totalmente a ver comigo", 5]
+      ]
+    },
+    {
+      "label": "i) Já tive obcecado durante algum tempo por certa ideia ou projeto mas depois perdi o interesse",
+      "opts": [
+        ["Nada a ver comigo", 5],
+        ["Não muito a ver comigo", 4],
+        ["Um pouco a ver comigo", 3],
+        ["Bastante a ver comigo", 2],
+        ["Totalmente a ver comigo", 1]
+      ]
+    },
+    {
+      "label": "j) Já superei obstáculos para conquistar um objetivo",
+      "opts": [
+        ["Nada a ver comigo", 1],
+        ["Não muito a ver comigo", 2],
+        ["Um pouco a ver comigo", 3],
+        ["Bastante a ver comigo", 4],
+        ["Totalmente a ver comigo", 5]
+      ]
+    }
+  ],
+  "type": "composite"
+}
