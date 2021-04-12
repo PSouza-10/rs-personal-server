@@ -1,0 +1,87 @@
+{
+  "title": "Questionário de Ansiedade e Depressão",
+  "description": "Assinale com \"X\" a alternativa que melhor descreve sua resposta para cada questão",
+  "questions": [
+    {
+      "label": "a) Eu me sinto tenso(a) ou contraido(a)",
+      "type": "simple",
+      "opts": [
+        ["A maior parte do tempo", 3],
+        ["Boa parte do tempo", 2],
+        ["De vez em quando", 1],
+        ["Nunca", 0]
+      ]
+    },
+    {
+      "label": "b) Eu ainda sinto que gosto das mesmas coisas de antes",
+      "type": "simple",
+      "opts": [
+        ["Sim, do mesmo jeito que antes", 0],
+        ["Não tanto quanto antes", 1],
+        ["Só um pouco", 2],
+        ["Já não consigo ter prazer em nada", 3]
+      ]
+    },
+    {
+      "label": "c) Estou com a cabeça cheia de preocupações",
+      "type": "simple",
+      "opts": [
+        ["A maior parte do tempo", 3],
+        ["Boa parte do tempo", 2],
+        ["De vez em quando", 1],
+        ["Raramente", 0]
+      ]
+    },
+    {
+      "label": "d) Eu me sinto alegre",
+      "type": "simple",
+      "opts": [
+        ["Nunca", 3],
+        ["Poucas vezes", 2],
+        ["Muitas vezes", 1],
+        ["A maior parte do tempo", 0]
+      ]
+    },
+    {
+      "label": "e) Eu tenho uma sensação ruim de medo, como um frio na barriga ou um aperto no estômago",
+      "type": "simple",
+      "opts": [
+        ["Nunca", 0],
+        ["De vez em quando", 1],
+        ["Muitas vezes", 2],
+        ["Quase sempre", 3]
+      ]
+    },
+    {
+      "label": "f) Eu perdi o interesse em cuidar da minha aparência",
+      "type": "simple",
+      "opts": [
+        ["Completamente", 3],
+        ["Não estou mais me cuidando como deveria", 2],
+        ["Talvez não tanto quanto antes", 1],
+        ["Me cuido do mesmo jeito que antes", 0]
+      ]
+    },
+    {
+      "label": "g) De repente tenho a sensação de entrar em pânico",
+      "type": "simple",
+      "opts": [
+        ["A quase todo momento", 3],
+        ["Varias vezes", 2],
+        ["De vez em quando", 1],
+        ["Não senti isso", 0]
+      ]
+    },
+    {
+      "label": "h) Consigo sentir prazer quando assisto a um bom programa de televisão, de rádio ou quando leio alguma coisa",
+      "type": "simple",
+      "opts": [
+        ["Quase sempre", 0],
+        ["Várias vezes", 1],
+        ["Poucas vezes", 2],
+        ["Quase nunca", 3]
+      ]
+    }
+  ],
+  "type": "composite"
+}

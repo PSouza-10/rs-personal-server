@@ -1,0 +1,42 @@
+{
+  "description": "Assinale a resposta que melhor corresponde ao seu comportamento com relação a:",
+  "questions": [
+    {
+      "label": "Exercício Físico",
+      "opts": [
+        ["Esforço ocupacional e recreativo intenso", 1],
+        ["Trabalho sedentário e esforço recreativo moderado", 5],
+        ["Esforço ocupacional e recreativo moderado", 2],
+        ["Trabalho sedentário e esforço recreativo leve", 6],
+        ["Trabalho sedentário, esforço recreativo intenso", 3],
+        ["Ausência completa de qualquer exercício", 8]
+      ],
+      "type": "simple"
+    },
+    {
+      "label": "Tabagismo",
+      "opts": [
+        ["Não-fumante", 0],
+        ["20 cigarros por dia", 4],
+        ["Charuto e/ou cachimbo", 1],
+        ["30 cigarros por dia", 6],
+        ["10 cigarros ou menos por dia", 2],
+        ["40 cigarros ou mais por dia", 1]
+      ],
+      "type": "simple"
+    },
+    {
+      "label": "Hereditariedade a coronariopatias",
+      "opts": [
+        ["Nenhuma história conhecida", 1],
+        ["2 parente com mais de 60 anos com doenças cardiovasculares", 3],
+        ["2 parentes com menos de 60 anos com doença cardiovascular", 6],
+        ["1 parente com mais de 60 anos com doença cardiovascular", 2],
+        ["1 parente com menos de 60 anos com doença cardiovascular", 4],
+        ["3 parentes com menos de 60 anos com doença cardiovascular", 8]
+      ],
+      "type": "simple"
+    }
+  ],
+  "type": "composite"
+}

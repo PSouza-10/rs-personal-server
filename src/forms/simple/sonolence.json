@@ -1,0 +1,19 @@
+{
+  "title": "Escala de sonolência de Epworth (ESSE)",
+  "questions": [
+    "a) Sentar e ler",
+
+    "b) Ficar sentado, sem fazer nada, em um local público",
+
+    "c) Deitar à tarde para descansar",
+    "d) Sentar e conversar com outra pessoa",
+    "e) Sentado em um carro, parado por alguns minutos por causa de trânsito"
+  ],
+  "type": "same-answer",
+  "opts": [
+    ["Nenhuma chance de cochilar", 0],
+    ["Leve chance de cochilar", 1],
+    ["Chance moderada de cochilar", 2],
+    ["Alta chance de cochilar", 3]
+  ]
+}

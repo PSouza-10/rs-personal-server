@@ -3,6 +3,6 @@ import FormController from '../controller/FormController'
 
 const router = Router()
 const controller = new FormController()
-router.get('/', controller.getForms)
+router.get('/:type', controller.getForms)
 
 export default router

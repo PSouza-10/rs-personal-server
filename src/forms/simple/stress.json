@@ -1,0 +1,33 @@
+{
+  "title": "Avaliação de Stress",
+  "description": "Assinale o quanto você vivenciou cada um dos fatores abaixo nos ultimos meses.",
+  "questions": [
+    "Dores de Cabeça",
+    "Insônia",
+    "Dores na região lombar",
+    "Sensação de norvosismo",
+    "Ingestão de Alcool",
+    "Ingestão de remédios sem receitra médica",
+    "Palpitações cardíacas",
+    "Falta de apatite",
+    "Baixo desempenho sexual",
+    "Comer em excesso",
+    "Períodos de depressão",
+    "Dores musculares (ombro, pescoço)",
+    "Ulcera ou gastrite",
+    "Perda de apetite",
+    "Mãos ou pés frios ou suados"
+  ],
+  "type": "same-answer",
+  "opts": [
+    ["Nunca", 0],
+    ["Ocasionalmente", 1],
+    ["Frequentemente", 2]
+  ],
+  "results": [
+    ["0-3", "Sem estresse"],
+    ["4-13", "Estresse moderado"],
+    ["14-21", "Estresse intenso"],
+    ["22", "Estresse muito intenso"]
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "title": "Questionário de Qualidade de vida",
+  "questions": [
+    {
+      "label": "01) - Em geral você diria que a sua saúde é",
+
+      "opts": [
+        ["Excelente", 5],
+        ["Muto boa", 4.4],
+        ["Boa", 3.4],
+        ["Ruim", 2],
+        ["Muito Ruim", 1]
+      ],
+      "type": "simple"
+    },
+    {
+      "label": "02) - Comparada há um ano atraz, como você se classificaria quanto à sua idade em geral, agora?",
+
+      "opts": [
+        ["Muito melhor", 1],
+        ["Um pouco melhor", 2],
+        ["Quase a mesma", 3],
+        ["Um pouco pior", 4],
+        ["Muito pior", 5]
+      ],
+      "type": "simple"
+    },
+    {
+      "label": "03) - Sobre as atividades que você poderia fazer atualamente durante um dia comum. Devido à sua saude, você teria dificuldade paa fazer estas atividades? Neste caso quando?",
+      "sub": [
+        "a) Atividades rigorosas que exigem muito esdforço, tais como correr, levantar objetos pesados, participar em esportes árduos",
+
+        "b) Atividades moderadas, tais como mover uma mesa, passar aspirador de pó, jogar bola, varrer a casa.",
+
+        "c) levantar ou carregar mantimentos.",
+
+        "d) Subir vários lances de escada.",
+
+        "e) Subir um lance de escada",
+
+        "f) Curvar-se, ajoelhar-se ou dobrar-se",
+
+        "g) Andar mais de 1 quilômetro",
+
+        "h) Andar varios quarteirões",
+
+        "i) Andar um quarteirão",
+
+        "j) Tomar banho ou vestir-se"
+      ],
+      "type": "same-answer",
+      "opts": [
+        ["Sim dificulta muito", 1],
+        ["Sim dificulta um pouco", 2],
+        ["Não, não dificulta de modo algum", 3]
+      ]
+    },
+    {
+      "label": "04) - Durante as ultimas quatro semanas você teve algum dos seguintes problemas com seu trabalho ou com alguma atividade regular, como consequancia de sua saúde física?",
+      "sub": [
+        "a) Você diminui a quantidade de tempo que se dedica ao seu trabalho ou outras atividades?",
+
+        "b) Realizou menos tarefas do que você gostaria?",
+
+        "c) esteve limitado no seu tipo de trabalho ou a outras atividades?",
+
+        "d) Teve dificuldade de fazer seu trabalho ou outras atividades ( por ex. necessitou de um esforço extra)"
+      ],
+      "type": "same-answer",
+      "opts": [
+        ["Sim", 1],
+        ["Não", 2]
+      ]
+    },
+    {
+      "label": "05) - Durante as ultimas quatro semanas você teve algum dos seguintes problemas com seu trabalho ou com alguma atividade regular, como consequência de algum problema emocional.( como se sentir deprimido ou ansioso)?",
+      "sub": [
+        "a) Você diminuiu a quantidade de tempo que se dedicava ao seu trabalho ou a outras atividades?",
+
+        "b) Realizou menos tarefas do que você gostaria?",
+
+        "c) Não realizou ou fez qualquer das atividades com tanto cuidado como geralmente faz?"
+      ],
+      "type": "same-answer",
+      "opts": [
+        ["Sim", 1],
+        ["Não", 2]
+      ]
+    },
+    {
+      "label": "06) - Durante as ultimas quatro semanas de que maneira a sua saúde física ou problemas emocionais interferiram nas suas atividades sociais normais em relação à familia, amigos ou em grupo?",
+
+      "opts": [
+        ["De forma nenhuma", 5],
+        ["Ligeiramente", 4],
+        ["Moderadamente", 3],
+        ["Bastante", 2],
+        ["Extremamente", 1]
+      ],
+      "type": "simple"
+    },
+    {
+      "label": "07) - Quanta dor no corpo você teve durantre as ultimas quatro semanas?",
+
+      "opts": [
+        ["Nenhuma", 6],
+        ["Muito leve", 5.4],
+        ["Leve", 4.2],
+        ["Moderada", 3.1],
+        ["Grave", 2.2],
+        ["Muito grave", 1]
+      ],
+      "type": "simple"
+    },
+    {
+      "label": "08) - Durante as ultimas quatro semanas quanto a dor interferiu com seu trabalho normal, (incluindo o trabalho dentro de casa)?",
+
+      "opts": [
+        ["De maneira nenhuma", 0],
+        ["Um pouco", 1],
+        ["Moderadamente", 2],
+        ["Bastante", 3],
+        ["Extremamente", 4]
+      ],
+      "type": "simple"
+    },
+    {
+      "label": "09) - Como você se sente e como tudo tem acontecido com você durante as ultimas quatro semanas. Para cada questão de uma resposta que mais se aproxime da maneira como você se sente em relação as ultimas quatro semanas?",
+      "sub": [
+        {
+          "label": "a) Quanto tempo você tem se sentido cheio de vigor, de vontade e força?",
+          "opts": [
+            ["Todo tempo", 6],
+            ["A maior parte do tempo", 5],
+            ["Uma boa parte do tempo", 4],
+            ["Alguma parte do tempo", 3],
+            ["Uma pequena parte do tempo", 2],
+            ["Nunca", 1]
+          ]
+        },
+        {
+          "label": "b) Quanto tempo você tem se sentido uma pessoa muito nervosa?",
+          "opts": [
+            ["Todo tempo", 1],
+            ["A maior parte do tempo", 2],
+            ["Uma boa parte do tempo", 3],
+            ["Alguma parte do tempo", 4],
+            ["Uma pequena parte do tempo", 5],
+            ["Nunca", 6]
+          ]
+        },
+        {
+          "label": "c) Quanto tempo você tem se sentido tão deprimido que nada pode anima-lo?",
+          "opts": [
+            ["Todo tempo", 1],
+            ["A maior parte do tempo", 2],
+            ["Uma boa parte do tempo", 3],
+            ["Alguma parte do tempo", 4],
+            ["Uma pequena parte do tempo", 5],
+            ["Nunca", 6]
+          ]
+        },
+        {
+          "label": "d) Quanto tempo você tem se sentido calmo ou tranquilo?",
+          "opts": [
+            ["Todo tempo", 6],
+            ["A maior parte do tempo", 5],
+            ["Uma boa parte do tempo", 4],
+            ["Alguma parte do tempo", 3],
+            ["Uma pequena parte do tempo", 2],
+            ["Nunca", 1]
+          ]
+        },
+        {
+          "label": "e) Quanto tempo você tem se sentido com muita energia?",
+          "opts": [
+            ["Todo tempo", 6],
+            ["A maior parte do tempo", 5],
+            ["Uma boa parte do tempo", 4],
+            ["Alguma parte do tempo", 3],
+            ["Uma pequena parte do tempo", 2],
+            ["Nunca", 1]
+          ]
+        },
+        {
+          "label": "f) Quanto tempo você tem se sentido desanimado ou abatido?",
+          "opts": [
+            ["Todo tempo", 1],
+            ["A maior parte do tempo", 2],
+            ["Uma boa parte do tempo", 3],
+            ["Alguma parte do tempo", 4],
+            ["Uma pequena parte do tempo", 5],
+            ["Nunca", 6]
+          ]
+        },
+        {
+          "label": "g) Quanto tempo você tem se sentido esgotado?",
+          "opts": [
+            ["Todo tempo", 1],
+            ["A maior parte do tempo", 2],
+            ["Uma boa parte do tempo", 3],
+            ["Alguma parte do tempo", 4],
+            ["Uma pequena parte do tempo", 5],
+            ["Nunca", 6]
+          ]
+        },
+        {
+          "label": "h) Quanto tempo você tem se sentido uma pessoa feliz?",
+          "opts": [
+            ["Todo tempo", 6],
+            ["A maior parte do tempo", 5],
+            ["Uma boa parte do tempo", 4],
+            ["Alguma parte do tempo", 3],
+            ["Uma pequena parte do tempo", 2],
+            ["Nunca", 1]
+          ]
+        },
+        {
+          "label": "i) Quanto tempo você tem se sentido cansado?",
+          "opts": [
+            ["Todo tempo", 1],
+            ["A maior parte do tempo", 2],
+            ["Uma boa parte do tempo", 3],
+            ["Alguma parte do tempo", 4],
+            ["Uma pequena parte do tempo", 5],
+            ["Nunca", 6]
+          ]
+        }
+      ],
+      "type": "composite"
+    },
+    {
+      "label": "10) - Durante as ultimas quatro semanas, quanto do seu tempo a sua saude física ou problemas emocionais inteferiram com as suas atividades sociais ( como visitar amigos, parentes etc..)?",
+
+      "opts": [
+        ["Todo tempo", 1],
+        ["A maior parte do tempo", 2],
+        ["Alguma parte do tempo", 3],
+        ["Uma pequena parte do tempo", 4],
+        ["Nenhuma parte do tempo", 5]
+      ],
+      "type": "simple"
+    },
+    {
+      "label": "11) - O quanto verdadeiro ou falso é cada uma destas aformações pra você?",
+      "sub": [
+        {
+          "label": "a) Eu costumo obedece um pouco facilmente que as outras pessoas",
+          "opts": [
+            ["Definitivamente verdadeiro", 1],
+            ["A maioria das vezes verdadeiro", 2],
+            ["Não sei", 3],
+            ["A maioria das vezes falso", 4],
+            ["Definitivamente falso", 5]
+          ]
+        },
+        {
+          "label": "b) Eu sou tão saudável quanto qualquer pessoas que conheço",
+          "opts": [
+            ["Definitivamente verdadeiro", 5],
+            ["A maioria das vezes verdadeiro", 4],
+            ["Não sei", 3],
+            ["A maioria das vezes falso", 2],
+            ["Definitivamente falso", 1]
+          ]
+        },
+        {
+          "label": "c) Eu acho que minha saúde vai piorar",
+          "opts": [
+            ["Definitivamente verdadeiro", 1],
+            ["A maioria das vezes verdadeiro", 2],
+            ["Não sei", 3],
+            ["A maioria das vezes falso", 4],
+            ["Definitivamente falso", 5]
+          ]
+        },
+        {
+          "label": "d) Minha saúde é excelente",
+          "opts": [
+            ["Definitivamente verdadeiro", 5],
+            ["A maioria das vezes verdadeiro", 4],
+            ["Não sei", 3],
+            ["A maioria das vezes falso", 2],
+            ["Definitivamente falso", 1]
+          ]
+        }
+      ],
+      "type": "composite"
+    }
+  ],
+  "type": "composite",
+  "result": {
+    "Capacidade funcional": null,
+    "Limitação por aspectos físicos": null,
+    "Dor": null,
+    "Estado geral de saúde": null,
+    "Vitalidade": null,
+    "Aspectos sociais": null,
+    "Limitação por aspectos emocionais": null,
+    "Saude mental": null
+  }
+}

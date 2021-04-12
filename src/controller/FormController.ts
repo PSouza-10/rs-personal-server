@@ -1,10 +1,10 @@
 import { Request, Response } from 'express'
 import readFiles from '../utils/readFiles'
 
-const readForms = async () => {
+const readForms = async (type: "simple" | 'complete') => {
 	let forms = {}
 	await readFiles(
-		'./src/forms',
+		'./src/forms/' + type ,
 		async (name, content) => {
 			forms[name.replace('.json', '')] = JSON.parse(content)
 		},
@@ -18,8 +18,14 @@ const readForms = async () => {
 class FormController {
 	async getForms(req: Request, res: Response) {
 		try {
-			const forms = await readForms()
-			return res.json(forms)
+			switch(req.params.type){
+				case "simple" :
+				case "complete" :
+					const forms = await readForms(req.params.type)
+					return res.json(forms)
+				default : throw new Error("invalid param")
+			}
+				
 		} catch (e) {
 			return res.status(500).json({
 				error: {
